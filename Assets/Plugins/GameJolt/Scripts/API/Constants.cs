@@ -5,7 +5,7 @@ namespace GameJolt.API
 {
 	public static class Constants
 	{
-		public const string VERSION = "2.0.2";
+		public const string VERSION = "2.1.1";
 
 		public const string SETTINGS_ASSET_NAME = "GJAPISettings";
 		public const string SETTINGS_ASSET_FULL_NAME = SETTINGS_ASSET_NAME + ".asset";
@@ -33,7 +33,7 @@ namespace GameJolt.API
 		public const string API_SCORES_FETCH = "/scores";
 		public const string API_SCORES_TABLES_FETCH = "/scores/tables";
 
-		public const string API_TROPHIES_ADD = "trophies/add-achieved";
+		public const string API_TROPHIES_ADD = "/trophies/add-achieved";
 		public const string API_TROPHIES_FETCH = "/trophies";
 
 		public const string API_DATASTORE_SET = "/data-store/set";
